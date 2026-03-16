@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_homelader_running",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,11 +12,11 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a07193f3-8ef6-4f05-8af2-2cc022e0dff4","name":"a07193f3-8ef6-4f05-8af2-2cc022e0dff4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c63cbc74-d60d-4786-8671-5d9861859a4e","name":"c63cbc74-d60d-4786-8671-5d9861859a4e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"345e2d51-3440-4572-bec8-d7b23069ff3f","name":"345e2d51-3440-4572-bec8-d7b23069ff3f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"59055616-7549-428f-a7ad-9b38c5074784","name":"59055616-7549-428f-a7ad-9b38c5074784","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"722e89b7-a4ef-412b-a32d-86b837c9fa8b","name":"722e89b7-a4ef-412b-a32d-86b837c9fa8b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a07193f3-8ef6-4f05-8af2-2cc022e0dff4","name":"a07193f3-8ef6-4f05-8af2-2cc022e0dff4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c63cbc74-d60d-4786-8671-5d9861859a4e","name":"c63cbc74-d60d-4786-8671-5d9861859a4e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"345e2d51-3440-4572-bec8-d7b23069ff3f","name":"345e2d51-3440-4572-bec8-d7b23069ff3f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"59055616-7549-428f-a7ad-9b38c5074784","name":"59055616-7549-428f-a7ad-9b38c5074784","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"722e89b7-a4ef-412b-a32d-86b837c9fa8b","name":"722e89b7-a4ef-412b-a32d-86b837c9fa8b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -36,7 +36,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"spr_homelader_running",
     "autoRecord":true,
     "backdropHeight":768,

@@ -48,6 +48,24 @@ if place_meeting(x + (image_xscale * 5),y,obj_homelander) and global.punch == tr
 	}
 }
 
+if place_meeting(x+(image_xscale * 5), y, obj_shock_wave) {
+	if cooldown == 0 {
+		follow_target = false
+		grv_scale -= punch_launch_vely
+	
+		switch(image_xscale){
+			case 1:
+				hsp -= punch_launch_vel;
+				break;
+			case -1:
+				hsp += punch_launch_vel;
+				break;
+		}
+		hp--
+		cooldown = 30
+	}
+}
+
 if place_meeting(x + (hsp),y,obj_colision){
 	hsp = 0
 }

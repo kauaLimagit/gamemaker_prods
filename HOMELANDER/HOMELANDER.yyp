@@ -1,8 +1,8 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"HOMELANDER",
   "AudioGroups":[
-    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -26,11 +26,12 @@
     {"$GMFolder":"","%Name":"Sons","folderPath":"folders/Sons.yy","name":"Sons","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.2.0.132",
+    "IDEVersion":"2024.14.3.217",
   },
   "name":"HOMELANDER",
   "resources":[
@@ -38,8 +39,9 @@
     {"id":{"name":"obj_colision","path":"objects/obj_colision/obj_colision.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_homelander","path":"objects/obj_homelander/obj_homelander.yy",},},
-    {"id":{"name":"obj_shock_wave","path":"objects/obj_shock_wave/obj_shock_wave.yy",},},
+    {"id":{"name":"obj_laser","path":"objects/obj_laser/obj_laser.yy",},},
     {"id":{"name":"obj_shock_effect","path":"objects/obj_shock_effect/obj_shock_effect.yy",},},
+    {"id":{"name":"obj_shock_wave","path":"objects/obj_shock_wave/obj_shock_wave.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"snd_homelander_punch","path":"sounds/snd_homelander_punch/snd_homelander_punch.yy",},},
     {"id":{"name":"snd_homelander_run","path":"sounds/snd_homelander_run/snd_homelander_run.yy",},},
@@ -53,6 +55,7 @@
     {"id":{"name":"spr_homelader_stopping_ground","path":"sprites/spr_homelader_stopping_ground/spr_homelader_stopping_ground.yy",},},
     {"id":{"name":"spr_homelader_walk","path":"sprites/spr_homelader_walk/spr_homelader_walk.yy",},},
     {"id":{"name":"spr_jump_poses","path":"sprites/spr_jump_poses/spr_jump_poses.yy",},},
+    {"id":{"name":"spr_laser","path":"sprites/spr_laser/spr_laser.yy",},},
     {"id":{"name":"spr_shock_effect","path":"sprites/spr_shock_effect/spr_shock_effect.yy",},},
     {"id":{"name":"spr_shock_wave","path":"sprites/spr_shock_wave/spr_shock_wave.yy",},},
     {"id":{"name":"spr_sky","path":"sprites/spr_sky/spr_sky.yy",},},

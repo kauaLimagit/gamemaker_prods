@@ -21,7 +21,7 @@ current_punch = punch_vel
 global.punch = false
 shock_wave_vel = 30
 cause_shock_wave = false
-particles_create = 30
+particles_create = 60
 
 
 

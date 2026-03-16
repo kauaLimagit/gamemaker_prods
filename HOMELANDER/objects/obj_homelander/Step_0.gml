@@ -3,6 +3,14 @@ var movey = -keyboard_check(ord("W"))+keyboard_check(ord("S"))
 var jmp = keyboard_check_pressed(vk_space)
 var shift = keyboard_check(vk_shift)
 
+//laser
+
+if mouse_check_button(mb_left) {
+	instance_create_layer(x,y-25,"Instances",obj_laser)
+}
+
+//laser end
+
 if keyboard_check_pressed(ord("R")){ room_restart() }
 
 switch (move) {
@@ -54,6 +62,9 @@ if !place_meeting(x + (sign(move) * -2) ,y+ (grv_scale +2),obj_colision){
 	if keyboard_check_pressed(ord("E")){
 		grv_scale = shock_wave_vel
 		cause_shock_wave = true
+		if flying{
+			flying = false
+		}
 	}
 	
 	if jmp and flying == false{
@@ -86,7 +97,7 @@ if !place_meeting(x + (sign(move) * -2) ,y+ (grv_scale +2),obj_colision){
 	if cause_shock_wave == true {
 		instance_create_layer(x,y,"Instances",obj_shock_wave)
 		for (var i = 0; i < particles_create; i++){
-			instance_create_layer(x,y+20,"Instances",obj_shock_effect)
+			instance_create_layer(x,y+15,"Instances",obj_shock_effect)
 		}
 		cause_shock_wave = false
 	}
@@ -135,3 +146,4 @@ if keyboard_check(ord("F")) {
 x+=hsp
 
 y+= grv_scale
+
