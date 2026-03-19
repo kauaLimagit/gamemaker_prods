@@ -1,0 +1,17 @@
+{
+  "FolderOrderSettings":[
+    {"name":"objects","order":2,"path":"folders/objects.yy",},
+    {"name":"sprites","order":1,"path":"folders/sprites.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"obj_rock","order":1,"path":"objects/obj_rock/obj_rock.yy",},
+    {"name":"obj_spear","order":2,"path":"objects/obj_spear/obj_spear.yy",},
+    {"name":"obj_teleport_effect","order":4,"path":"objects/obj_teleport_effect/obj_teleport_effect.yy",},
+    {"name":"obj_teleport","order":3,"path":"objects/obj_teleport/obj_teleport.yy",},
+    {"name":"spr_floor","order":2,"path":"sprites/spr_floor/spr_floor.yy",},
+    {"name":"spr_player_horizontal_walk","order":1,"path":"sprites/spr_player_horizontal_walk/spr_player_horizontal_walk.yy",},
+    {"name":"spr_player_teleport","order":5,"path":"sprites/spr_player_teleport/spr_player_teleport.yy",},
+    {"name":"spr_rock","order":3,"path":"sprites/spr_rock/spr_rock.yy",},
+    {"name":"spr_spear","order":4,"path":"sprites/spr_spear/spr_spear.yy",},
+  ],
+}
