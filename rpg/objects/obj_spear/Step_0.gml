@@ -7,6 +7,12 @@ if shoot == false and on_player == false {
 		speed--
 	}
 	
+	if place_meeting(x,y,obj_colide) and colided == false{
+		direction = -dir
+		speed -= colided_break
+		colided = true
+	}
+	
 	if place_meeting(x,y,obj_player) and timer == 0{
 		global.spear_qnt = 1
 		on_player = true

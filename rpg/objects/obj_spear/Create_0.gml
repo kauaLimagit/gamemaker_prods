@@ -4,3 +4,6 @@ timer = 30
 on_player = true 
 
 shoot = false
+
+colided = false
+colided_break = 5

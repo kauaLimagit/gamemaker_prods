@@ -23,9 +23,9 @@ switch (movex){
 // player animação andar o parado
 if movex != 0 {sprite_index = spr_player_horizontal_walk} else { sprite_index = spr_player_horizontal_defaut}
 
-if place_meeting(x+(hsp+1), y, obj_rock){
+if place_meeting(x+(hsp+1), y, obj_colide){
 	hsp = 0
-}else if place_meeting(x,y+(vsp+1), obj_rock){
+}else if place_meeting(x,y+(vsp+1), obj_colide){
 	vsp = 0
 }
 
